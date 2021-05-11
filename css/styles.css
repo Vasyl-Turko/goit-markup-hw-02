@@ -102,7 +102,7 @@ body {
   background-color: var(--accent-color);
 }
 
-.features-list-item-title {
+.features-item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -110,7 +110,7 @@ body {
   text-transform: uppercase;
 }
 
-.features-list-item-description {
+.features-item-description {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -126,7 +126,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.members-list-item-title {
+.members-item-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -134,7 +134,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.members-list-item-description {
+.members-item-description {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -156,13 +156,15 @@ body {
 }
 
 .address-description {
+  font-style: normal;
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.adddress-contacts-list-item {
+.adddress-contacts-item {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -186,14 +188,14 @@ body {
   background-color: var(--accent-color);
 }
 
-.skills-list-item-title {
+.skills-item-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.skills-list-item-description {
+.skills-item-description {
   font-size: 16px;
   line-height: 1, 86;
   letter-spacing: 0.03em;
