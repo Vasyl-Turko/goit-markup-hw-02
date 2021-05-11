@@ -19,6 +19,14 @@ body {
   background-color: #e5e5e5;
 }
 
+.navigation-item-selected {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
 /*===header+footer===*/
 
 .logo-part-one {
@@ -56,15 +64,15 @@ body {
   background-color: #ffffff;
 }
 
-.navigation-list-item {
+.navigation-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-font-color);
 }
-.navigation-list-item:hover,
-.navigation-list-item:focus {
+.navigation-item:hover,
+.navigation-item:focus {
   color: var(--accent-color);
   background-color: #ffffff;
 }
