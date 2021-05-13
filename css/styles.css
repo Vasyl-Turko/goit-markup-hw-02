@@ -1,5 +1,5 @@
 :root {
-  --second-font-family: Raleway;
+  --second-font-family: Raleway, sans-serif;
   --main-font-color: #212121;
   --accent-color: #2196f3;
   --secondary-color: #ffffff;
@@ -7,6 +7,7 @@
   --background-hero: #2f303a;
   --btn-bgr-color: #188ce8;
   --contacts-color: rgba(255, 255, 255, 0.6);
+  --about-us-bgr: #f5f4fa;
 }
 
 .list {
@@ -43,9 +44,10 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /*===header+footer===*/
 
-.logo-part-one {
+.logo {
   font-family: var(--second-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -64,10 +66,6 @@ body {
 }
 
 .logo-part-two {
-  font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--main-font-color);
 }
 
@@ -134,6 +132,10 @@ body {
   color: var(--secondary-font-color);
 }
 
+.about-us {
+  background-color: var(--about-us-bgr);
+}
+
 .job-title,
 .about-us-title {
   font-weight: 700;
@@ -158,17 +160,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-font-color);
 }
+
 /*===footer===*/
+
 .downweb {
   background-color: var(--background-hero);
 }
 
 .logo-part-three {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
 
@@ -195,7 +194,7 @@ body {
   line-height: 1, 63;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: transparent;
+  background-color: var(--about-us-bgr);
   cursor: pointer;
 }
 .portfolio-btn:hover,
